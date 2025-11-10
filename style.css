@@ -1,0 +1,181 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');  
+ @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap'); 
+
+*{ 
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+ body{ 
+     background-color: yellow;
+    /* font-family: "Roboto", sans-serif;  */
+    font-family:  "Momo Trust Display", sans-serif;
+     /* height: 700px; */
+} 
+
+/* flexitem for menubar, flex-container for logo and menu   */
+ .container{ 
+    margin: 0px auto; 
+    width: 1250px; 
+    /* background-color: aqua; */
+    /* height: 60px; */
+    /* border-radius: 10px; */
+    /* padding: 10px; */
+    /* color: red; */
+ }    
+
+/* flexcontainer for flexitem "container" which is flexcontainer for "flexlogo" and "menu"  */
+#menu-bar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: brown;
+    color: green;
+    /* flex-wrap:wrap; */
+}
+
+/* flex-menu-container through the menu-bar(id-selector) */
+#menu-bar .container{
+    display: flex; 
+    justify-content: space-between;
+    height: 60px;
+    align-items: center; 
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* menu(element) through menu-bar(id selector)  */
+#menu-bar ul{
+    display:flex;
+    list-style-type: none; 
+}
+
+/* menu unordered list list item  */
+.menu ul li{
+    display:inline-block;
+    margin: 0px 0px 0px 20px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/*  */
+.flex-logo h1 {
+    font-weight: bolder;
+    /* font-style: italic; */
+    
+}
+
+/* flex-Container for container of write-up and grid flex-items */
+#hero-section{
+    display: flex;
+    background-color:pink;
+    min-height: 200px;
+}
+
+/* container for write-up and grid flex-items */
+#hero-section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+/*.boxes .container{
+    display: flex;
+}
+*/
+
+ 
+ #main-area{ 
+    display: flex; 
+    justify-content: center;   
+    align-items: center;  
+    margin: 20px;  
+    /* flex-direction: row; */
+ }
+
+/* main-area container */
+#main-area .container1{ 
+    display:flex; 
+    flex-direction: column;
+    background-color:red;
+    border-radius: 20px; 
+    height: 200px;
+    margin: 50px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+/* #main-area .h3{ */
+    /* font-size: large; */
+
+
+/* main-area container title */
+#main-area .container1 .title{
+     display:flex;
+     justify-content: space-around; 
+}
+
+
+/* #main-area .container .font-awesome{ */
+   /* margin: 0px 15px 0px 0px; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
